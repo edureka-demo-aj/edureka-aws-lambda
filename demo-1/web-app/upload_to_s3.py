@@ -17,8 +17,8 @@ def upload_file(file_name, bucket, object_name=None):
 
     # Upload the file
     s3_client = boto3.client('s3', 
-                             aws_access_key_id="AKIAWTIKIIVJQS4YF6GG",
-                             aws_secret_access_key="hgcyxEE45BnX6l/hCuQCaMT/dvD+yPdY7Y3ieQN/",
+                             aws_access_key_id="YOUR ACCESS ID",
+                             aws_secret_access_key="SECRET KEY",
                             )
     try:
         response = s3_client.upload_file(file_name, bucket, object_name)
