@@ -2,7 +2,7 @@ version: '2.3'
 
 services:
   
-  cross-sell-prediction:
+  edureka-lambda:
     image: lambda-demo
     ports: 
       - "8080:8080"
